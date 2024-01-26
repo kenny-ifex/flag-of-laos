@@ -1,0 +1,33 @@
+.flag{
+    height: 500px;
+    width: 600px;
+    background-color: brown;
+    position: relative;
+    left: 300px;
+}
+.flag div{
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 159px;
+
+}
+.flag div div{
+    height: 150px;
+    width: 150px;
+    background-color: azure;
+    border-radius: 75px;
+    position: absolute;
+    left: 250px;
+    bottom: 200px;
+    top: 30px;
+}
+p{
+    text-align: center;
+}
+.flag div div p{
+position: absolute;
+top: 30px;
+padding-left: 30px;
+}
